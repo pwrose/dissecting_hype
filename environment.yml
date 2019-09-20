@@ -1,0 +1,16 @@
+name: dissecting_hype 
+
+channels:
+  - anaconda
+  - conda-forge
+
+dependencies:
+  - python>=3.6
+  - jupyter=1.0.0
+  - jupyterlab=1.0.2
+  - pandas=0.25.1
+  - rdkit=2019.03.4
+  - tqdm=4.36.1
+  - pip
+  - pip:
+    - chembl-webresource-client==0.10.0
